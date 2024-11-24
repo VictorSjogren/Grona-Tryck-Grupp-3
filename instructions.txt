@@ -1,0 +1,19 @@
+Step: 1(must do first)
+
+Download EJS extention in vscode to support ejs syntax:
+EJS language supporter (.ejs)
+
+step: 2
+In terminal use the following command to create express ejs:
+npm install express
+npm init -y
+npm install express ejs fs
+npm install cors(for login request to work hehe..)
+
+
+step: 3
+To start the and close the server:
+
+In the index.js file open integrated terminal in the terminal type:
+"node index.js" to open the server and to close do ctrl + c
+

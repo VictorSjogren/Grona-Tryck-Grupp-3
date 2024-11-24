@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gröna Tryck är ett tryckeri som bryr sig om hållbarhet och miljön. Hos oss hittar du alltid det du förväntar dig hitta hos ett tryckeri och alltid lite mer." />
+    <title>Gröna Tryck</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/swiper.css" />
+    <link rel="stylesheet" href="/static/popup.css" />
+  </head>
+  <header>
+    <%- include('partials/navbar') %>
+
+    <div class="heroStSt">
+      <picture>
+
+        <source
+          media="(max-width: 1279px)"
+          srcset="
+            /static/images/Hero/50/webp/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association_50.webp,
+            /static/images/Hero/50/jpg/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association_50.jpg"
+          sizes="100vw">
+
+        <source
+          media="(max-width: 1919px)"
+          srcset="
+            /static/images/Hero/75/webp/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association_75.webp,
+            /static/images/Hero/75/jpg/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association_75.jpg"
+          sizes="100vw">
+
+        <source
+          media="(min-width: 1920px)"
+          srcset="
+            /static/images/Hero/100/webp/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association.webp,
+            /static/images/Hero/100/jpg/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association.jpg"
+          sizes="100vw">
+
+        <img src="/static/images/Hero/100/jpg/StanleyStella_AW24_Nature_Outerwear_Brooker_Trekker_Association.jpg" alt="Stanley/Stella hero bild">
+      </picture>
+      <img
+        src="/static/images/infographics-folder/stanleystella/StanleyStella_OfficialDealer-Logo-1500px_Light.png"
+        alt="Stanley/Stella logotyp"
+        id="StSt-logo"
+      />
+      <button class="heroBtn">Se Stanley/Stellas varor här</button>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 40">
+        <path
+          d="M1 26.89S196.38 2.09 336 1.58c146.52-.53 239.05 20.15 385 25.31C861.03 31.85 930.91 0 1071.5 0S1441 26.89 1441 26.89V140H1V26.89Z"
+          style="fill: #fff"
+        />
+      </svg>
+    </div>
+  </header>
+  <body>
+    <section>
+      <h2 class="heading-l-c-responsive">Rekommenderat för dig</h2>
+      <div class="swiper product-swiper">
+        <div class="swiper-wrapper">
+          <% products.slice(0, 8).forEach(function(product) { %>
+          <div class="swiper-slide">
+            <div class="gt-product">
+              <div class="gt-product-image">
+                <!-- Lägg till en länk runt varje produktkort -->
+                <a href="/produktsidan/<%= product.id %>">
+                  <picture class="gt-product-image">
+                    <source srcset="<%= product.model_image_webp.image %>" type="image/webp">
+                    <img src="<%= product.model_image_jpg.image %>" alt="<%= product.name %>">
+                  </picture>
+                </a>
+              </div>
+              <div class="gt-product-info">
+                <p class="gt-product-price heading-s">
+                  <%= product.price_tiers.length > 0 ? 
+                      (product.price_tiers[product.price_tiers.length - 1].price_per_unit + ' kr - ' +
+                      product.price_tiers[0].price_per_unit + ' kr') : 'Price unavailable' %>
+                </p>
+                
+                <p class="gt-product-name body-text"><%= product.name %></p>
+              </div>
+              <div class="gt-product-extra-info">
+                <p class="body-text"><%= product.fit %></p>
+                <p class="body-text">Minimum: <%= product.minimum %></p>
+                <p class="body-text"><%= product.egenskaper_info[2] %></p>
+                <p class="body-text">
+                  Färger: <%= product.products_images ?
+                  product.products_images.length : 0 %>
+                </p>
+              </div>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <div class="cards-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 492">
+        <path
+          d="M716.19 138.36c104.74 2.05 167.4-44.02 250.11-72.1-80.33 20.67-145.91 56.95-245.87 45.4C573.68 94.7 481.81 39.97 334.1 37.38 205.92 35.15 29.79 82.61-.66 91.11v94.64c35.18-13.46 200.83-74.75 325.52-84.5 147.16-11.51 243.76 34.22 391.34 37.11Z"
+          style="fill: #e5eae4"
+        />
+        <path
+          d="M1439.79 88.36s-234.74-51.94-376.03-42.18c-141.3 9.76-205.97 94.95-347.57 92.18-147.58-2.89-244.17-48.62-391.34-37.11C200.17 111 34.52 172.29-.66 185.75v100.23l1.68 24.29V205.74s195.38-62.73 335-64c146.52-1.34 239.05 50.94 385 64 140.03 12.53 209.91-68 350.5-68s355.1 63.76 368.82 67.8V96.32l-.55-7.96Z"
+          style="fill: #b4c3b2"
+        />
+        <path
+          d="M1440.34 205.54c-13.72-4.04-232.68-67.8-368.82-67.8s-210.47 80.53-350.5 68c-145.95-13.06-238.48-65.34-385-64-139.62 1.28-335 64-335 64v286h1439.32v-286.2Z"
+          style="fill: #f7f9f7"
+        />
+      </svg>
+      <section>
+        <div class="cards">
+          <div class="brands">
+            <picture>
+
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /static/images/Cards/50/webp/gt_gallery_2_50.webp,
+                  /static/images/Cards/50/jpg/gt_gallery_2_50.jpg"
+                sizes="100vw">
+
+              <source
+                media="(max-width: 1279px)"
+                srcset="
+                  /static/images/Cards/75/webp/gt_gallery_2_75.webp,
+                  /static/images/Cards/75/jpg/gt_gallery_2_75.jpg"
+                sizes="100vw">
+
+              <source
+                media="(max-width: 1919px)"
+                srcset="
+                  /static/images/Cards/50/webp/gt_gallery_2_50.webp,
+                  /static/images/Cards/50/jpg/gt_gallery_2_50.jpg"
+                sizes="100vw">
+
+              <source
+                media="(min-width: 1920px)"
+                srcset="
+                  /static/images/Cards/100/webp/gt_gallery_2.webp,
+                  /static/images/Cards/100/jpg/gt_gallery_2.jpg"
+                sizes="100vw">
+      
+              <img src="/static/images/Cards/100/jpg/gt_gallery_2.jpg" alt="Varumärken">
+            </picture>
+            <h2>Varumärken</h2>
+          </div>
+
+          <div class="services">
+            <picture>
+
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /static/images/Cards/50/webp/gt_gallery_5_50.webp,
+                  /static/images/Cards/50/jpg/gt_gallery_5_50.jpg"
+                sizes="100vw">
+
+              <source
+                media="(max-width: 1279px)"
+                srcset="
+                  /static/images/Cards/75/webp/gt_gallery_5_75.webp,
+                  /static/images/Cards/75/jpg/gt_gallery_5_75.jpg"
+                sizes="100vw">
+
+              <source
+                media="(max-width: 1919px)"
+                srcset="
+                  /static/images/Cards/50/webp/gt_gallery_5_50.webp,
+                  /static/images/Cards/50/jpg/gt_gallery_5_50.jpg"
+                sizes="100vw">
+
+              <source
+                media="(min-width: 1920px)"
+                srcset="
+                  /static/images/Cards/100/webp/gt_gallery_5.webp,
+                  /static/images/Cards/100/jpg/gt_gallery_5.jpg"
+                sizes="100vw">
+      
+              <img src="/static/images/Cards/100/jpg/gt_gallery_5.jpg" alt="Tjänster">
+            </picture>
+            <h2>Tjänster</h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="socialmedia">
+      <div class="socialmedia-title">
+        <h2 class="heading-l-c-responsive">
+          Följ oss på
+          <span class="gronatryck-ge heading-l-c-responsive">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 367 58">
+              <path
+                d="M12.26 40.8c.38.08.77.15 1.13.23-.71.17-1.78.18-3.02.17 13.63 1.56 32.33.51 44.51-2.29-6.12-3.33-17.62-3.89-26.82-5.29 1.37.24 2.8.49 4.16.73-2.05-.2-4.08-.42-6.37-.43.25.14.54.31.79.45-9.8-2.92-37.93 3.45-14.39 6.42Zm13.07 4.57c-4.41-.68-8.73-.83-12.94-1.78l.32 1.26c2.11-1.74 28.49-1.99 15.5-4.22-4.8-1.99-41.65 1.59-19.91 4.98 5.61.1 6.1-1.84 8.99-1.5l-1.47.33c1.98-1.07 7.64-1.5 10.69-1.63-1.02-1.12-2.5-2.45-4.13-1.68.02 1.19-24.79 2.4-13.42 4.36-.35-.07-.7-.14-1.04-.2 4.13-.58 17.6 2.14 17.41.09Zm200.48 10.64c15.43.77 31.2 1.71 46.35.53-14.07.53-35.36-.92-46.35-.53Zm114.45-22.86c-2.53.71-4.66 1.7-6.94 2.17-32.72 11.83-70.85 11.23-105.99 13.06 2.4 1.39-4.33 1.04-5.52 1.01 30.76 2.54 61.84-1.08 91.67-7.04-1.7 1.25-5.71 1.63-8.19 2.62-51.99 15.25-107.26 10.56-160.66 7.5-11.05-2.76-124.68-2.81-97.16-13.86-9.97-.4-25.01-3.84-30.23-9.53-7.92-1.52-5.24-3.43-.99-7.28-1.7-.91-2.54-1.89-1.25-2.99-1.95-.55.94-1.12 1.76-1.08-3.15-1.57-14.76.36-13.08-3.93-2.65-.06-4.86-.62-2.86-1.83 1.48-1.13 5.33.45 5 .37.38-.44.77-.28 1.14.07l-.35-.4 1.29.2-1.49-.3c2.85.02 5.05 0 6.72-.17 6.73.3 12.89-.58 21.06-.83-7.3-2.71-17.97-.95-25.98-2.34 20.12-4.95 42.91-1.1 63.56.79l-.57-.22c1.15.17 2.31.37 3.46.52C59.31 6.01 42.61 6.4 27.52 3.24c19.77-2 39.72 1.68 56.39 4.62-.57-.23-1.11-.44-1.68-.68 2.1.27 3.16.83 5.05 1.16-.21-.26-.42-.54-.63-.81 15.96 1.41 29.42 4.35 45 4.25-1.61-.23-3.2-.47-4.81-.7 34.15 3.68 63.39 10.11 96.51 9.91-13.74 1.4-28.83-.25-43.29-.74 59.95 9.04 122.57 3.02 179.58-15.08-36.69 18.34-83.31 21.43-125.59 20.57.33.49-.24.78-1.01 1.06 38.65-.04 79.56-.5 116.79-12.38-6.79 3.44-15.3 5.4-22.98 7.61 3.18.18 2.86 1.54.09 2.73 1.14-.06 6.92-1.8 7.66-1.02-16.44 4.72-34.96 6.22-52.16 8.36 27.22 1.57 61.58-11.33 84.66-16.78-7.34 2.42-15.42 5-22.9 6.95 1.4.12-2.05 1.03-1.19.31-14.4 3.83-29.08 6.82-43.82 9.18 12.64-.79 39.42-6.96 44.47-7.72 16.72-.53-22.05 7.44-25.63 8.26 11.93-1.23 23.92-4.6 35.43-6.45-25.56 10.27-54.4 11.26-81.23 17.54 22.68-.43 44.03-6.71 65.92-11.39-17.83 5.47-37.32 8.97-55.62 11.73 19.1-1.32 42.11-6.65 57.71-10.58ZM56.54 15.72c-.16-.06-.29-.1-.4-.15.93.02 2.57.8 3.38 1.28 0 0-1.5-.56-2.98-1.13ZM31.1 18.44h.01c-.67-.3-1.15-.52-1.15-.52.47.21.83.38 1.14.52Zm160.28 3.82c-8.41-.64-16.76-1.58-25.04-2.91 8.41.39 16.65 1.89 25.05 2.91h-.01ZM39.61 11.75c7.62 2.72 15.29 1.62 23.05 2.69-.43-.56 2.01-.16 2.54-.27-8.4-.96-17.24-1.66-25.59-2.42ZM8.59 13.22c-.13-.04-.24-.07-.39-.1l.81-.52s-.2.27-.42.62Zm-1.26.87c.21 0 .41.03.64.04-.22.19-.42.13-.64-.04Zm5.86.39c-.35-.12-.56-.2-.83-.24l.83.24Zm4.54 14.03 2.13-2.44-2.32 2.34.19.09Z"
+                style="fill: #b4c3b2"
+              />
+            </svg>
+            @gronatryck
+          </span>
+        </h2>
+      </div>
+      <div class="socialmedia-posts">
+        <blockquote
+          class="instagram-media media-1"
+          data-instgrm-permalink="https://www.instagram.com/p/DADTKzfOClM/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+          style="
+            background: #fff;
+            border: 0;
+            border-radius: 3px;
+            box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+              0 1px 10px 0 rgba(0, 0, 0, 0.15);
+            margin: 1px;
+            max-width: 540px;
+            min-width: 326px;
+            padding: 0;
+            width: 99.375%;
+            width: -webkit-calc(100% - 2px);
+            width: calc(100% - 2px);
+          "
+        >
+          <div style="padding: 16px">
+            <a
+              href="https://www.instagram.com/p/DADTKzfOClM/?utm_source=ig_embed&amp;utm_campaign=loading"
+              style="
+                background: #ffffff;
+                line-height: 0;
+                padding: 0 0;
+                text-align: center;
+                text-decoration: none;
+                width: 100%;
+              "
+              target="_blank"
+            >
+              <div
+                style="display: flex; flex-direction: row; align-items: center"
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    flex-grow: 0;
+                    height: 40px;
+                    margin-right: 14px;
+                    width: 40px;
+                  "
+                ></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      margin-bottom: 6px;
+                      width: 100px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      width: 60px;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="padding: 19% 0"></div>
+              <div
+                style="
+                  display: block;
+                  height: 50px;
+                  margin: 0 auto 12px;
+                  width: 50px;
+                "
+              >
+                <svg
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 60 60"
+                  version="1.1"
+                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns:xlink="https://www.w3.org/1999/xlink"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      transform="translate(-511.000000, -20.000000)"
+                      fill="#000000"
+                    >
+                      <g>
+                        <path
+                          d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div style="padding-top: 8px">
+                <div
+                  style="
+                    color: #3897f0;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 550;
+                    line-height: 18px;
+                  "
+                >
+                  Visa detta inlägg på Instagram
+                </div>
+              </div>
+              <div style="padding: 12.5% 0"></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  margin-bottom: 14px;
+                  align-items: center;
+                "
+              >
+                <div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(0px) translateY(7px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      height: 12.5px;
+                      transform: rotate(-45deg) translateX(3px) translateY(1px);
+                      width: 12.5px;
+                      flex-grow: 0;
+                      margin-right: 14px;
+                      margin-left: 2px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(9px) translateY(-18px);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: 8px">
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      flex-grow: 0;
+                      height: 20px;
+                      width: 20px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 2px solid transparent;
+                      border-left: 6px solid #f4f4f4;
+                      border-bottom: 2px solid transparent;
+                      transform: translateX(16px) translateY(-4px) rotate(30deg);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: auto">
+                  <div
+                    style="
+                      width: 0px;
+                      border-top: 8px solid #f4f4f4;
+                      border-right: 8px solid transparent;
+                      transform: translateY(16px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      flex-grow: 0;
+                      height: 12px;
+                      width: 16px;
+                      transform: translateY(-4px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 8px solid #f4f4f4;
+                      border-left: 8px solid transparent;
+                      transform: translateY(-4px) translateX(8px);
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  justify-content: center;
+                  margin-bottom: 24px;
+                "
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    margin-bottom: 6px;
+                    width: 224px;
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    width: 144px;
+                  "
+                ></div></div
+            ></a>
+            <p
+              style="
+                color: #c9c8cd;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 0;
+                margin-top: 8px;
+                overflow: hidden;
+                padding: 8px 0 7px;
+                text-align: center;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              "
+            >
+              <a
+                href="https://www.instagram.com/p/DADTKzfOClM/?utm_source=ig_embed&amp;utm_campaign=loading"
+                style="
+                  color: #c9c8cd;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 17px;
+                  text-decoration: none;
+                "
+                target="_blank"
+                >Ett inlägg delat av Gröna Tryck (@gronatryck)</a
+              >
+            </p>
+          </div>
+        </blockquote>
+        <blockquote
+          class="instagram-media media-2"
+          data-instgrm-permalink="https://www.instagram.com/p/Co-AiscNZzm/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+          style="
+            background: #fff;
+            border: 0;
+            border-radius: 3px;
+            box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+              0 1px 10px 0 rgba(0, 0, 0, 0.15);
+            margin: 1px;
+            max-width: 540px;
+            min-width: 326px;
+            padding: 0;
+            width: 99.375%;
+            width: -webkit-calc(100% - 2px);
+            width: calc(100% - 2px);
+          "
+        >
+          <div style="padding: 16px">
+            <a
+              href="https://www.instagram.com/p/Co-AiscNZzm/?utm_source=ig_embed&amp;utm_campaign=loading"
+              style="
+                background: #ffffff;
+                line-height: 0;
+                padding: 0 0;
+                text-align: center;
+                text-decoration: none;
+                width: 100%;
+              "
+              target="_blank"
+            >
+              <div
+                style="display: flex; flex-direction: row; align-items: center"
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    flex-grow: 0;
+                    height: 40px;
+                    margin-right: 14px;
+                    width: 40px;
+                  "
+                ></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      margin-bottom: 6px;
+                      width: 100px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      width: 60px;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="padding: 19% 0"></div>
+              <div
+                style="
+                  display: block;
+                  height: 50px;
+                  margin: 0 auto 12px;
+                  width: 50px;
+                "
+              >
+                <svg
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 60 60"
+                  version="1.1"
+                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns:xlink="https://www.w3.org/1999/xlink"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      transform="translate(-511.000000, -20.000000)"
+                      fill="#000000"
+                    >
+                      <g>
+                        <path
+                          d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div style="padding-top: 8px">
+                <div
+                  style="
+                    color: #3897f0;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 550;
+                    line-height: 18px;
+                  "
+                >
+                  Visa detta inlägg på Instagram
+                </div>
+              </div>
+              <div style="padding: 12.5% 0"></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  margin-bottom: 14px;
+                  align-items: center;
+                "
+              >
+                <div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(0px) translateY(7px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      height: 12.5px;
+                      transform: rotate(-45deg) translateX(3px) translateY(1px);
+                      width: 12.5px;
+                      flex-grow: 0;
+                      margin-right: 14px;
+                      margin-left: 2px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(9px) translateY(-18px);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: 8px">
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      flex-grow: 0;
+                      height: 20px;
+                      width: 20px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 2px solid transparent;
+                      border-left: 6px solid #f4f4f4;
+                      border-bottom: 2px solid transparent;
+                      transform: translateX(16px) translateY(-4px) rotate(30deg);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: auto">
+                  <div
+                    style="
+                      width: 0px;
+                      border-top: 8px solid #f4f4f4;
+                      border-right: 8px solid transparent;
+                      transform: translateY(16px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      flex-grow: 0;
+                      height: 12px;
+                      width: 16px;
+                      transform: translateY(-4px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 8px solid #f4f4f4;
+                      border-left: 8px solid transparent;
+                      transform: translateY(-4px) translateX(8px);
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  justify-content: center;
+                  margin-bottom: 24px;
+                "
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    margin-bottom: 6px;
+                    width: 224px;
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    width: 144px;
+                  "
+                ></div></div
+            ></a>
+            <p
+              style="
+                color: #c9c8cd;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 0;
+                margin-top: 8px;
+                overflow: hidden;
+                padding: 8px 0 7px;
+                text-align: center;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              "
+            >
+              <a
+                href="https://www.instagram.com/p/Co-AiscNZzm/?utm_source=ig_embed&amp;utm_campaign=loading"
+                style="
+                  color: #c9c8cd;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 17px;
+                  text-decoration: none;
+                "
+                target="_blank"
+                >Ett inlägg delat av Gröna Tryck (@gronatryck)</a
+              >
+            </p>
+          </div>
+        </blockquote>
+        <blockquote
+          class="instagram-media media-3"
+          data-instgrm-permalink="https://www.instagram.com/p/C9UXMcvCW83/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+          style="
+            background: #fff;
+            border: 0;
+            border-radius: 3px;
+            box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+              0 1px 10px 0 rgba(0, 0, 0, 0.15);
+            margin: 1px;
+            max-width: 540px;
+            min-width: 326px;
+            padding: 0;
+            width: 99.375%;
+            width: -webkit-calc(100% - 2px);
+            width: calc(100% - 2px);
+          "
+        >
+          <div style="padding: 16px">
+            <a
+              href="https://www.instagram.com/p/C9UXMcvCW83/?utm_source=ig_embed&amp;utm_campaign=loading"
+              style="
+                background: #ffffff;
+                line-height: 0;
+                padding: 0 0;
+                text-align: center;
+                text-decoration: none;
+                width: 100%;
+              "
+              target="_blank"
+            >
+              <div
+                style="display: flex; flex-direction: row; align-items: center"
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    flex-grow: 0;
+                    height: 40px;
+                    margin-right: 14px;
+                    width: 40px;
+                  "
+                ></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    justify-content: center;
+                  "
+                >
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      margin-bottom: 6px;
+                      width: 100px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 4px;
+                      flex-grow: 0;
+                      height: 14px;
+                      width: 60px;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div style="padding: 19% 0"></div>
+              <div
+                style="
+                  display: block;
+                  height: 50px;
+                  margin: 0 auto 12px;
+                  width: 50px;
+                "
+              >
+                <svg
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 60 60"
+                  version="1.1"
+                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns:xlink="https://www.w3.org/1999/xlink"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      transform="translate(-511.000000, -20.000000)"
+                      fill="#000000"
+                    >
+                      <g>
+                        <path
+                          d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div style="padding-top: 8px">
+                <div
+                  style="
+                    color: #3897f0;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 550;
+                    line-height: 18px;
+                  "
+                >
+                  Visa detta inlägg på Instagram
+                </div>
+              </div>
+              <div style="padding: 12.5% 0"></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  margin-bottom: 14px;
+                  align-items: center;
+                "
+              >
+                <div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(0px) translateY(7px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      height: 12.5px;
+                      transform: rotate(-45deg) translateX(3px) translateY(1px);
+                      width: 12.5px;
+                      flex-grow: 0;
+                      margin-right: 14px;
+                      margin-left: 2px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      height: 12.5px;
+                      width: 12.5px;
+                      transform: translateX(9px) translateY(-18px);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: 8px">
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      border-radius: 50%;
+                      flex-grow: 0;
+                      height: 20px;
+                      width: 20px;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 2px solid transparent;
+                      border-left: 6px solid #f4f4f4;
+                      border-bottom: 2px solid transparent;
+                      transform: translateX(16px) translateY(-4px) rotate(30deg);
+                    "
+                  ></div>
+                </div>
+                <div style="margin-left: auto">
+                  <div
+                    style="
+                      width: 0px;
+                      border-top: 8px solid #f4f4f4;
+                      border-right: 8px solid transparent;
+                      transform: translateY(16px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      background-color: #f4f4f4;
+                      flex-grow: 0;
+                      height: 12px;
+                      width: 16px;
+                      transform: translateY(-4px);
+                    "
+                  ></div>
+                  <div
+                    style="
+                      width: 0;
+                      height: 0;
+                      border-top: 8px solid #f4f4f4;
+                      border-left: 8px solid transparent;
+                      transform: translateY(-4px) translateX(8px);
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  justify-content: center;
+                  margin-bottom: 24px;
+                "
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    margin-bottom: 6px;
+                    width: 224px;
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    width: 144px;
+                  "
+                ></div>
+            ></a>
+            <p
+              style="
+                color: #c9c8cd;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 0;
+                margin-top: 8px;
+                overflow: hidden;
+                padding: 8px 0 7px;
+                text-align: center;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              "
+            >
+              <a
+                href="https://www.instagram.com/p/C9UXMcvCW83/?utm_source=ig_embed&amp;utm_campaign=loading"
+                style="
+                  color: #c9c8cd;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 17px;
+                  text-decoration: none;
+                "
+                target="_blank"
+                >Ett inlägg delat av Gröna Tryck (@gronatryck)</a
+              >
+            </p>
+          </div>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="brand-colaborations">
+      <div class="colab-title">
+        <h2 class="heading-l-c-responsive">
+          Vänner som hjälper oss förändra textilbranschen
+        </h2>
+      </div>
+      <div class="swiper colab-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/bob.png"
+              alt="Bob hund"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/fatta.png"
+              alt="Fatta"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/frank.png"
+              alt="Frank"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/gbg.png"
+              alt="Göteborgs stad"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/if.png"
+              alt="if försäkringar"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/IM.png"
+              alt="IM"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/life.png"
+              alt="Life"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/mora.png"
+              alt="Mora kniv"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/pow.png"
+              alt="POW"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/snb.png"
+              alt="SNB"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/studie.png"
+              alt="Studie"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/umea.png"
+              alt="Umeå kommun"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/urkult.png"
+              alt="Urkult"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/static/images/infographics-folder/friends-logos/water.png"
+              alt="Water"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%- include('partials/footer') %> <%- include('partials/chatbox') %>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="/static/swiper.js"></script>
+    <script src="/static/script.js"></script>
+   
+
+
+  </body>
+</html>

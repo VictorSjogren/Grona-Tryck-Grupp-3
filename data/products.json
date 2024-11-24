@@ -1,0 +1,1600 @@
+[
+  {
+    "id": 1,
+    "artikelnummer": 6518,
+    "name": "Bomber 2.0",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 360
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 324
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 306
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 297
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 288
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Bomber%202.0_Black_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Black"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Bomber%202.0_Black_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Black"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Bomber%202.0_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Bomber%202.0_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Bomber%202.0_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Bomber%202.0_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 2,
+    "artikelnummer": 2913,
+    "name": "Brooker",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "20-49",
+        "price_per_unit": 460
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 424
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 406
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 397
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 388
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Brooker_Khaki_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Khaki"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Brooker_Khaki_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Khaki"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Brooker_Khaki_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Brooker_Khaki_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Khaki"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Brooker_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Brooker_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Brooker_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Brooker_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 20
+  },
+  {
+    "id": 3,
+    "artikelnummer": 7919,
+    "name": "Changer 2.0",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "25-49",
+        "price_per_unit": 260
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 224
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 206
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 197
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 188
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Changer%202.0_Heritage%20Brown_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Heritage Brown"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Changer%202.0_Heritage%20Brown_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Heritage Brown"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Changer%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Changer%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Changer%202.0_Heather%20Haze_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Changer%202.0_Heather%20Haze_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Heather Haze"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Changer%202.0_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Changer%202.0_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Changer%202.0_Misty%20Jade_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Changer%202.0_Misty%20Jade_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Misty Jade"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 25
+  },
+  {
+    "id": 4,
+    "artikelnummer": 2848,
+    "name": "Connector 2.0",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 330
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 314
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 295
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 273
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 251
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Connector%202.0_French%20Navy_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Black"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Connector%202.0_French%20Navy_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Black"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Connector%202.0_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Connector%202.0_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Connector%202.0_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Connector%202.0_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Connector%202.0_Bright%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Connector%202.0_Bright%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Bright blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Connector%202.0_Burgundy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Connector%202.0_Burgundy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Red",
+        "color_name": "Burgundy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Connector%202.0_Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Connector%202.0_Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Connector%202.0_White_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Connector%202.0_White_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "White"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 5,
+    "artikelnummer": 7163,
+    "name": "Crafter",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "15-49",
+        "price_per_unit": 220
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 204
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 189
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 172
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 163
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Crafter_Heritage%20Brown_Studio_Front_Main_0_50.webp",
+      "simplified_color": "Heritage Brown"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Crafter_Heritage%20Brown_Studio_Front_Main_0_50.jpg",
+      "simplified_color": "Heritage Brown"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Crafter_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jgp": "/static/images/Products/Mains/25/jpg/Crafter_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Crafter_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Crafter_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Crafter_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Crafter_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Herr",
+    "minimum": 15
+  },
+  {
+    "id": 6,
+    "artikelnummer": 1414,
+    "name": "Creator 2.0 Long Sleeve",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 355
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 334
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 326
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 307
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 298
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Creator%202.0%20Long%20Sleeve_Natural%20Raw_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Natural Raw"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Creator%202.0%20Long%20Sleeve_Natural%20Raw_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Creator%202.0%20Long%20Sleeve_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Creator%202.0%20Long%20Sleeve_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Cool Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Glazed%20Green_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Glazed%20Green_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Glazed Green"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Khaki_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Khaki_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Khaki"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Red%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Red%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Red",
+        "color_name": "Red Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Red_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Red_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Red",
+        "color_name": "Red"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_White_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_White_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "White"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0%20Long%20Sleeve_Worker%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0%20Long%20Sleeve_Worker%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Worker Blue"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 7,
+    "artikelnummer": 9025,
+    "name": "Creator 2.0",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 240
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 224
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 206
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 197
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 188
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Creator%202.0_Heather%20Haze_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Heather Haze"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Creator%202.0_Heather%20Haze_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Heather Haze"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Creator%202.0_Heather%20Haze_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Creator%202.0_Heather%20Haze_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Heather Haze"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Creator%202.0_Misty%20Jade_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Creator%202.0_Misty%20Jade_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Misty Jade"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 8,
+    "artikelnummer": 9603,
+    "name": "Cruiser 2.0",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "25-49",
+        "price_per_unit": 420
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 404
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 386
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 367
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 348
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Cruiser%202.0_Heather%20Haze_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Heather Haze"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Cruiser%202.0_Heather%20Haze_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Heather Haze"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Cruiser%202.0_Heather%20Haze_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Cruiser%202.0_Heather%20Haze_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Heather Haze"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Cruiser%202.0_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Cruiser%202.0_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Cruiser%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Cruiser%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Cruiser%202.0_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Cruiser%202.0_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Cruiser%202.0_Misty%20Jade_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Cruiser%202.0_Misty%20Jade_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Misty Jade"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 25
+  },
+  {
+    "id": 9,
+    "artikelnummer": 2343,
+    "name": "Drummer 2.0",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "15-49",
+        "price_per_unit": 320
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 304
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 286
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 267
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 248
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Drummer%202.0_Heritage%20Brown_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Heritage Brown"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Drummer%202.0_Heritage%20Brown_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Heritage Brown"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Drummer%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Drummer%202.0_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Drummer%202.0_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Drummer%202.0_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Drummer%202.0_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Drummer%202.0_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Drummer%202.0_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Drummer%202.0_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 15
+  },
+  {
+    "id": 10,
+    "artikelnummer": 2727,
+    "name": "Freestyler Long Sleeve",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 330
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 314
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 296
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 277
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 258
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Freestyler%20Long%20Sleeve_Cool%20Heather%20Grey_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Heather Grey"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Freestyler%20Long%20Sleeve_Cool%20Heather%20Grey_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Freestyler%20Long%20Sleeve_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Freestyler%20Long%20Sleeve_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Cool Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_White_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_White_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "White"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Heather%20Haze_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Heather%20Haze_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Heather Haze"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Long%20Sleeve_Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Long%20Sleeve_Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Heather Grey"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 11,
+    "artikelnummer": 1742,
+    "name": "Freestyler Vintage",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 250
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 234
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 216
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 197
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 178
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Freestyler%20Vintage_G.%20Dyed%20Latte_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Dyed Latte"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Freestyler%20Vintage_G.%20Dyed%20Latte_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Freestyler%20Vintage_G.%20Dyed%20Latte_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Freestyler%20Vintage_G.%20Dyed%20Latte_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Dyed Latte"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Vintage_G.%20Dyed%20Blue%20Stone_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Vintage_G.%20Dyed%20Blue%20Stone_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Dyed Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Freestyler%20Vintage_G.%20Dyed%20Black%20Rock_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Freestyler%20Vintage_G.%20Dyed%20Black%20Rock_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 12,
+    "artikelnummer": 6221,
+    "name": "Knoxer",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 321
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 312
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 298
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 272
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 256
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Knoxer_Natural%20Raw_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Natural Raw"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Knoxer_Natural%20Raw_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Knoxer_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Knoxer_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Knoxer_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Knoxer_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Knoxer_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Knoxer_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Cool Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Knoxer_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Knoxer_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Knoxer_Heather%20Haze_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Knoxer_Heather%20Haze_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Heather Haze"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Knoxer_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Knoxer_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 10
+  },
+  {
+    "id": 13,
+    "artikelnummer": 9991,
+    "name": "Liner",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "15-49",
+        "price_per_unit": 521
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 512
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 498
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 472
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 456
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Liner_Desert%20Dust_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Desert Dust"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Liner_Desert%20Dust_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Liner_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Liner_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Liner_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Liner_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 15
+  },
+  {
+    "id": 14,
+    "artikelnummer": 9935,
+    "name": "Puffer",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "15-49",
+        "price_per_unit": 511
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 492
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 476
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 459
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 426
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Puffer%20Gilet_French%20Navy_Duo_Front_Main_0_50.webp",
+      "simplified_color": "French Navy"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Puffer%20Gilet_French%20Navy_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "French Navy"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Puffer%20Gilet_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Puffer%20Gilet_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Puffer%20Gilet_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Puffer%20Gilet_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Puffer%20Gilet_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Puffer%20Gilet_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 15
+  },
+  {
+    "id": 15,
+    "artikelnummer": 6375,
+    "name": "Stella Clara",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "20-49",
+        "price_per_unit": 311
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 292
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 276
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 259
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 226
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Stella%20Clara_Eco-Heather_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Eco Heather"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Stella%20Clara_Eco-Heather_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Eco Heather"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Stella%20Clara_Eco-Heather_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Stella%20Clara_Eco-Heather_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Eco Heather"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Red_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Red_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Red",
+        "color_name": "Red"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Stargazer_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Stargazer_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Stargazer"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Lavender_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Lavender_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Lavender"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Blue%20Soul_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Blue%20Soul_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Soul"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Cool%20Heather%20Grey_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Cool Heather Grey"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Cotton%20Pink_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Cotton%20Pink_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Pink",
+        "color_name": "Cotton Pink"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Anthracite_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Anthracite_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Anthracite"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Clara_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Clara_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Dam",
+    "minimum": 20
+  },
+  {
+    "id": 16,
+    "artikelnummer": 1265,
+    "name": "Stella Climber",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 514
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 492
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 476
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 459
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 437
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Stella%20Climber_Stargazer_Studio_Front_Main_5_50.webp",
+      "simplified_color": "Stargazer"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Stella%20Climber_Stargazer_Studio_Front_Main_5_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Stella%20Climber_Stargazer_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Stella%20Climber_Stargazer_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Stargazer"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Climber_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Climber_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Climber_Khaki_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Climber_Khaki_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Khaki"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Climber_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Climber_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Climber_Anthracite_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Climber_Anthracite_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Anthracite"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Dam",
+    "minimum": 10
+  },
+  {
+    "id": 17,
+    "artikelnummer": 4572,
+    "name": "Stella Serena",
+    "category": "T-shirt",
+    "price_tiers": [
+      {
+        "range": "20-49",
+        "price_per_unit": 314
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 292
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 276
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 259
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 231
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Stella%20Serena_Blue%20Ice_Studio_Front_Main_5_50.webp",
+      "simplified_color": "Blue Ice"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Stella%20Serena_Blue%20Ice_Studio_Front_Main_5_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Stella%20Serena_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Stella%20Serena_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Serena_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Serena_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stella%20Serena_Anthracite_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stella%20Serena_Anthracite_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Anthracite"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Dam",
+    "minimum": 20
+  },
+  {
+    "id": 18,
+    "artikelnummer": 2571,
+    "name": "Stanley Guider",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "15-49",
+        "price_per_unit": 381
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 352
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 322
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 258
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 226
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Stanley%20Guider_Khaki_Studio_Front_Main_1_50.webp",
+      "simplified_color": "Khaki"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Stanley%20Guider_Khaki_Studio_Front_Main_1_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Stanley%20Guider_Khaki_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Stanley%20Guider_Khaki_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Khaki"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Stargazer_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Stargazer_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Stargazer"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_French%20Navy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_French%20Navy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "French Navy"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Anthracite_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Anthracite_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Grey",
+        "color_name": "Anthracite"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Black_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Black_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Black",
+        "color_name": "Black"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Guider_Burgundy_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Guider_Burgundy_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Red",
+        "color_name": "Red"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Herr",
+    "minimum": 15
+  },
+  {
+    "id": 19,
+    "artikelnummer": 4910,
+    "name": "Stanley Voyager",
+    "category": "Jacket",
+    "price_tiers": [
+      {
+        "range": "10-49",
+        "price_per_unit": 585
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 557
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 512
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 468
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 449
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Stanley%20Voyager_Desert%20Dust_Studio_Front_Main_0_50.webp",
+      "simplified_color": "Desert Dust"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Stanley%20Voyager_Desert%20Dust_Studio_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Stanley%20Voyager_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Stanley%20Voyager_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Voyager_Khaki_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Voyager_Khaki_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Khaki"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Voyager_Mindful%20Blue_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Voyager_Mindful%20Blue_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Mindful Blue"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Stanley%20Voyager_Stargazer_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Stanley%20Voyager_Stargazer_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Green",
+        "color_name": "Stargazer"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Herr",
+    "minimum": 10
+  },
+  {
+    "id": 20,
+    "artikelnummer": 1900,
+    "name": "Roller",
+    "category": "Sweater",
+    "price_tiers": [
+      {
+        "range": "20-49",
+        "price_per_unit": 381
+      },
+      {
+        "range": "50-99",
+        "price_per_unit": 352
+      },
+      {
+        "range": "100-249",
+        "price_per_unit": 312
+      },
+      {
+        "range": "250-499",
+        "price_per_unit": 288
+      },
+      {
+        "range": "500+",
+        "price_per_unit": 265
+      }
+    ],
+    "model_image_webp": {
+      "image": "/static/images/Products/Mains/50/webp/Roller_Natural%20Raw_Duo_Front_Main_0_50.webp",
+      "simplified_color": "Natural Raw"
+    },
+    "model_image_jpg": {
+      "image": "/static/images/Products/Mains/50/jpg/Roller_Natural%20Raw_Duo_Front_Main_0_50.jpg",
+      "simplified_color": "Natural Raw"
+    },
+    "products_images": [
+      {
+        "image_webp": "/static/images/Products/Mains/25/webp/Roller_Natural%20Raw_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Mains/25/jpg/Roller_Natural%20Raw_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "White",
+        "color_name": "Natural Raw"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Roller_Desert%20Dust_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Roller_Desert%20Dust_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Beige",
+        "color_name": "Desert Dust"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Roller_Heritage%20Brown_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Roller_Heritage%20Brown_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Brown",
+        "color_name": "Heritage Brown"
+      },
+      {
+        "image_webp": "/static/images/Products/Colors/webp/Roller_Blue%20Ice_Packshot_Front_Main_0_25.webp",
+        "image_jpg": "/static/images/Products/Colors/jpg/Roller_Blue%20Ice_Packshot_Front_Main_0_25.jpg",
+        "simplified_color": "Blue",
+        "color_name": "Blue Ice"
+      }
+    ],
+    "material_info": [
+      "85% ekologisk rättvisemärkt, ringspunnen och kammad bomull",
+      "15% återvunnen PET"
+    ],
+    "egenskaper_info": [
+      "Borstad fleece-insida",
+      "1×1 Ribbade muddar",
+      "XXS-5XL"
+    ],
+    "fit": "Unisex",
+    "minimum": 20
+  }
+]
